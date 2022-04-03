@@ -1,0 +1,120 @@
+body {
+  background: url(../form/img/pink5.png);
+}
+:root{
+--сerise:#d63f92;
+--viola: #c77ea6;
+--white: #ffffff;
+--melanie:#dfabca;
+--radius: 10px;
+}
+
+.block {
+  width: 400px;
+  height: 380px;
+  border: 2px solid var(--melanie);
+  border-radius: var(--radius);
+  padding: 30px 20px 30px 40px;
+  background-color: var(--melanie);
+  margin: 100px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+input {
+  position: relative;
+  margin: 0px 50px;
+  padding: 10px;
+  border-radius: var(--radius);
+  background-color: var(--white);
+  width: 250px;
+  border: var(--сerise);
+}
+
+.sign {
+  display: block;
+  width: 275px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: var(--сerise);
+  color: var(--white);
+  margin-top: 20px;
+  transition: 0.3s ease-in;
+}
+
+.sign:hover {
+  background: #141414;
+  color: var(--white);;
+  transition: 1s ease-out;
+}
+
+h1 {
+  color: var(--сerise);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+p {
+  color: #4b4343;
+  font-size: 14px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.facebook {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 220px;
+  text-align: center;
+  padding: 5px 10px;
+  border-radius:var(--radius);
+  transition: 1s ease-out;
+  position: absolute;
+  color: var(--white);;
+  background: var(--viola);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+.facebook:hover {
+  background: var(--сerise);
+  color: var(--white);;
+  transition: 1s ease-out;
+}
+
+.twitter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 80px;
+  text-align: center;
+  padding: 5px 10px ;
+  border-radius: var(--radius);
+  transition: 1s ease-out; 
+  position: absolute;
+  color: var(--white);;
+  background: var(--viola);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 13px;
+}
+
+.twitter:hover {
+  background: var(--сerise);
+  color: var(--white);;
+  transition: 1s ease-out;
+}
+
+a {
+  text-decoration: none;
+}
